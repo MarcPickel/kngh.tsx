@@ -1,0 +1,25 @@
+@font-face {
+  src: url(../../vendor/fonts/LindenHill-Regular.ttf);
+  font-family: "Linden Hill";
+}
+
+.header {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__logo {
+  width: 40px;
+}
+
+.header__title {
+  font-family: "Linden Hill", "Times New Roman", serif;
+}

@@ -1,0 +1,8 @@
+@font-face {
+  src: url(../../vendor/fonts/Poppins-Regular.ttf);
+  font-family: "Poppins";
+}
+
+.nav__button {
+  font-family: "Poppins", Arial, sans-serif;
+}
