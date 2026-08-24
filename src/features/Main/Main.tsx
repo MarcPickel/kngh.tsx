@@ -17,11 +17,13 @@ Then, upon submission, the form ought to say:
 as well as for our sacrifices and offering Holy Communion for the conversion of sinners
 
 */}
-
-        <form>
-
+<section className="section">
+    <div className="section__form-container">
+        <form className="form">
+        <input></input>
         </form>
-
+    </div>
+</section>
     </main>)
 }
 
