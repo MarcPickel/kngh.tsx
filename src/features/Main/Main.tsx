@@ -20,7 +20,35 @@ as well as for our sacrifices and offering Holy Communion for the conversion of 
 <section className="section">
     <div className="section__form-container">
         <form className="form">
-        <input></input>
+            <label htmlFor="name">Please name the person for whom you would like us to pray for conversion</label>    
+                <input 
+                type="text"
+                id="name"
+                name="name"
+                required
+                minLength={1}
+                maxLength={20}
+                placeholder="e.g. John, Therese"
+                />
+            <label htmlFor="affiliation">How are you affiliated with this person?</label>    
+                <input 
+                type="text"
+                id="affliation"
+                name="affiliation"
+                required
+                minLength={1}
+                maxLength={20}
+                placeholder="e.g. Dad, Mom, Aunt, Uncle, Grandparent"
+                />
+            <label htmlFor="details">Please share a little of your heart, if you would like</label>
+                <textarea 
+                id="details"
+                name="details"
+                rows={5}
+                cols={33}
+                placeholder="e.g. My son has been away from the church for twelve years and..."
+                maxLength={700}
+                />
         </form>
     </div>
 </section>

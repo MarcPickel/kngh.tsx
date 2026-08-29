@@ -11,11 +11,11 @@ function Nav() {
         <NavLink to="/join">
         <button className="nav__button" type="button">Join</button>
         </NavLink>
+        <NavLink to="/story">
+        <button className="nav__button" type="button">The Story</button>
+        </NavLink>
         <NavLink to="/cross">
         <button className="nav__button" type="button">Sign of the Cross</button>
-        </NavLink>
-        <NavLink to="/genuflect">
-        <button className="nav__button" type="button">Genuflection</button>
         </NavLink>
         <NavLink to="/sacraments">
         <button className="nav__button" type="button">Sacraments</button>
