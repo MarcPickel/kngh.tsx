@@ -23,6 +23,7 @@ function Footer() {
         <div className="footer__container">
             <div className="footer__column">
                 <ul>Resources
+                    <li>Scripture</li>
                     <li>Genuflection</li>
                     <li>Sacramentals</li>
                     <li>Church Precepts</li>
@@ -35,10 +36,10 @@ function Footer() {
                 <ul>Pages
                     <li>Home</li>
                     <li>Join</li>
+                    <li>The Story</li>
                     <li>Sign of the Cross</li>
                     <li>Sacraments</li>
                     <li>Catechism</li>
-                    <li>Scripture</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>

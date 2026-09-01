@@ -1,3 +1,5 @@
+import "./Main.css";
+
 function Main() {
     return (
     <main className="main">
@@ -17,10 +19,10 @@ Then, upon submission, the form ought to say:
 as well as for our sacrifices and offering Holy Communion for the conversion of sinners
 
 */}
-<section className="section">
+<section className="section section_blue">
     <div className="section__form-container">
         <form className="form">
-            <label htmlFor="name">Please name the person for whom you would like us to pray for conversion</label>    
+            <label htmlFor="name" className="form__label">Please name the loved one for whom you would like us to pray for conversion</label>    
                 <input 
                 type="text"
                 id="name"
@@ -28,9 +30,10 @@ as well as for our sacrifices and offering Holy Communion for the conversion of 
                 required
                 minLength={1}
                 maxLength={20}
-                placeholder="e.g. John, Therese"
+                placeholder="e.g. John, Therese, Bob, Amy"
+                className="form__input"
                 />
-            <label htmlFor="affiliation">How are you affiliated with this person?</label>    
+            <label htmlFor="affiliation" className="form__label">How are you affiliated with this loved one?</label>    
                 <input 
                 type="text"
                 id="affliation"
@@ -38,9 +41,10 @@ as well as for our sacrifices and offering Holy Communion for the conversion of 
                 required
                 minLength={1}
                 maxLength={20}
-                placeholder="e.g. Dad, Mom, Aunt, Uncle, Grandparent"
+                placeholder="e.g. Dad, Mom, Aunt, Uncle, Grandparent, Friend"
+                className="form__input"
                 />
-            <label htmlFor="details">Please share a little of your heart, if you would like</label>
+            <label htmlFor="details" className="form__label">If you are willing, please share any specific obstacles or struggles concerning your loved one's walk with the Lord</label>
                 <textarea 
                 id="details"
                 name="details"
@@ -48,8 +52,13 @@ as well as for our sacrifices and offering Holy Communion for the conversion of 
                 cols={33}
                 placeholder="e.g. My son has been away from the church for twelve years and..."
                 maxLength={700}
+                className="form__input"
                 />
         </form>
+    </div>
+    <div className="section__counter-container">
+        <p className="section__counter-text">Number of prayers requested for the conversion of sinners:</p>
+        <p className="section__counter">4949</p>
     </div>
 </section>
     </main>)

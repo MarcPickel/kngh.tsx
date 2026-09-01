@@ -4,7 +4,7 @@
 }
 
 .header {
-  padding: 40px;
+  padding: 0 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,10 +16,17 @@
   gap: 10px;
 }
 
+.header__container:hover {
+  cursor: pointer;
+}
+
 .header__logo {
   width: 40px;
 }
 
 .header__title {
+  margin: 0;
   font-family: "Linden Hill", "Times New Roman", serif;
+  font-size: 24px;
+  color: #1d2d5a;
 }

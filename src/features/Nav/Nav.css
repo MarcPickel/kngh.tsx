@@ -4,5 +4,24 @@
 }
 
 .nav__button {
+  padding: 8px 8px;
   font-family: "Poppins", Arial, sans-serif;
+  border: none;
+  background: transparent;
+  color: #1d2d5a;
+  transition:
+    background 0.2s ease-in-out,
+    border-radius 0.2s ease-in-out;
+}
+
+.nav__button_active {
+  background: #1d2d5a;
+  border-radius: 8px;
+  color: #fada38;
+}
+
+.nav__button:hover {
+  cursor: pointer;
+  background: #1d2d5a09;
+  border-radius: 8px;
 }

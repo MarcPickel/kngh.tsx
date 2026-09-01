@@ -23,9 +23,6 @@ function Nav() {
         <NavLink to="/catechism">
         <button className="nav__button" type="button">Catechism</button>
         </NavLink>
-        <NavLink to="/scripture">
-        <button className="nav__button" type="button">Scripture</button>
-        </NavLink>
         <NavLink to="/about">
         <button className="nav__button" type="button">About</button>
         </NavLink>
