@@ -6,7 +6,7 @@ function Nav() {
     return (
     <nav className="nav">
         <NavLink to="/">
-        <button className="nav__button" type="button">Home</button>
+        <button className="nav__button nav__button_active" type="button">Home</button>
         </NavLink>
         <NavLink to="/join">
         <button className="nav__button" type="button">Join</button>

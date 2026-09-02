@@ -25,3 +25,8 @@
   background: #1d2d5a09;
   border-radius: 8px;
 }
+
+.nav__button_active:hover {
+  background: #1d2d5a;
+  cursor: pointer;
+}
