@@ -6,11 +6,11 @@ function Footer() {
     return (
     <footer className="footer">
         <div className="footer__content">
-            <div className="footer__container footer__container_logo">
+            <div className="footer__container footer__container-logo">
                 <img className="footer__logo" src={logo}/>
                 <p className="footer__title">The Knights of Good Help</p>
             </div>
-            <div className="footer__container footer__container_links">
+            <div className="footer__container footer__container-links">
                 <a href="" className="footer__link">Stars</a>
                 <a href="" className="footer__link">Music</a>
                 <a href="" className="footer__link">Dance</a>
@@ -22,26 +22,28 @@ function Footer() {
         </div>
         <div className="footer__container">
             <div className="footer__column">
-                <ul>Resources
-                    <li>Scripture</li>
-                    <li>Genuflection</li>
-                    <li>Sacramentals</li>
-                    <li>Church Precepts</li>
-                    <li>Virtues</li>
-                    <li>Saints</li>
-                    <li>For the Church Militant</li>
+                <p className="footer__list-title">Resources</p>
+                <ul className="footer__list">
+                    <li className="footer__list-item">Scripture</li>
+                    <li className="footer__list-item">Genuflection</li>
+                    <li className="footer__list-item">Sacramentals</li>
+                    <li className="footer__list-item">Church Precepts</li>
+                    <li className="footer__list-item">Virtues</li>
+                    <li className="footer__list-item">Saints</li>
+                    <li className="footer__list-item">For the Church Militant</li>
                 </ul>
             </div>
             <div className="footer__column">
-                <ul>Pages
-                    <li>Home</li>
-                    <li>Join</li>
-                    <li>The Story</li>
-                    <li>Sign of the Cross</li>
-                    <li>Sacraments</li>
-                    <li>Catechism</li>
-                    <li>About</li>
-                    <li>Contact</li>
+            <p className="footer__list-title">Pages</p>
+                <ul className="footer__list">
+                    <li className="footer__list-item">Home</li>
+                    <li className="footer__list-item">Join</li>
+                    <li className="footer__list-item">The Story</li>
+                    <li className="footer__list-item">Sign of the Cross</li>
+                    <li className="footer__list-item">Sacraments</li>
+                    <li className="footer__list-item">Catechism</li>
+                    <li className="footer__list-item">About</li>
+                    <li className="footer__list-item">Contact</li>
                 </ul>
             </div>
         </div>

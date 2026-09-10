@@ -1,7 +1,80 @@
-/*.footer {
+@font-face {
+  src: url(../../vendor/fonts/Poppins-Regular.ttf);
+  font-family: "Poppins";
 }
-*/
+@font-face {
+  src: url(../../vendor/fonts/LindenHill-Regular.ttf);
+  font-family: "Linden Hill";
+}
+
+.footer {
+  margin: 40px 80px 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #1d2d5a;
+  font-family: "Poppins", Arial, sans-serif;
+}
 
 .footer__logo {
   width: 40px;
+}
+
+.footer__content {
+  display: inherit;
+  flex-direction: column;
+}
+
+.footer__container {
+  display: inherit;
+  gap: 80px;
+}
+
+.footer__container-logo {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__logo {
+  width: 60px;
+}
+
+.footer__title {
+  margin: 0;
+  font-size: 32px;
+  font-family: "Linden Hill", "Times New Roman", serif;
+}
+
+.footer__container-links {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer__link {
+  font-size: 18px;
+  color: #1d2d5a;
+}
+
+.footer__copyright {
+  margin: auto 0 0;
+}
+
+.footer__column {
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list-title {
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.footer__list-item {
+  margin-bottom: 4px;
+  list-style-type: none;
 }
