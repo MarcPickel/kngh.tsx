@@ -30,7 +30,7 @@ function Footer() {
                     <li className="footer__list-item">Church Precepts</li>
                     <li className="footer__list-item">Virtues</li>
                     <li className="footer__list-item">Saints</li>
-                    <li className="footer__list-item">For the Church Militant</li>
+                    <li className="footer__list-item">Helpful Links</li>
                 </ul>
             </div>
             <div className="footer__column">

@@ -1,5 +1,7 @@
 import "./Main.css";
 
+import arrow from "../../assets/arrow_circle_icon.svg";
+
 function Main() {
 
     return (
@@ -24,16 +26,19 @@ as well as for our sacrifices and offering Holy Communion for the conversion of 
     <div className="section__form-container">
         <form className="form">
             <label htmlFor="name" className="form__label">Please name the loved one for whom you would like us to pray for conversion:</label>    
+                <div className="form__input-container">
                 <input 
                 type="text"
                 id="name"
                 name="name"
                 required
                 minLength={1}
-                maxLength={20}
+                maxLength={50}
                 placeholder="e.g. John, Therese, Bob, Amy"
                 className="form__input"
                 />
+                <button type="submit" className="form__submit-button"><img className="form__input-icon" src={arrow}/></button>
+                </div>
         </form>
     </div>
     <div className="section__counter-container">

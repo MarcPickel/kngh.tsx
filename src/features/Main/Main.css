@@ -26,11 +26,21 @@
   color: #fff;
 }
 
-.form__input {
+/* 
+Note: Make input bigger. Look at Google's.
+*/
+.form__input-container {
   width: 100%;
-  padding: 8px 10px;
+  padding: 8px 10px 8px 20px;
+  display: flex;
+  align-items: center;
   border: solid 1px #fada38;
   border-radius: 50px;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
   background: transparent;
   color: #fada38;
   line-height: 20px;
@@ -38,8 +48,25 @@
 
 .form__input:focus {
   color: #fff;
-  border: solid 1px #1d2d5a;
-  outline: 2px solid white;
+  border: none;
+  outline: none;
+}
+
+.form__submit-button {
+  height: 30px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.form__submit-button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.form__input-icon {
+  width: 30px;
 }
 
 .section__counter-container {
